@@ -1,0 +1,88 @@
+*   {
+    box-sizing: border-box;
+}
+
+html    {
+    background-color: #4b5e65;    
+}
+
+body    {
+    font-family: Calibri;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #ac8220;
+    width: 100%;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 450;
+    border-top: 2px solid #cfc9bd;
+    border-bottom: 2px solid #cfc9bd;
+}
+
+nav a {
+    color: #cfc9bd;
+    margin: 0 auto;
+}
+
+h2  {
+    align-items: center;
+    margin-top: 50pt;
+    text-align:center;
+    background-color: #ac8220;
+    color: #FDF8F5;
+    z-index:100;
+}
+
+header {
+    padding: 65px;
+    text-align:left;
+    background-image: url(/images/tom-barrett-2t60-JYQ5pk-unsplash.jpg);
+    background-size:100%;
+    width: auto;
+}
+
+.header img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cards  {
+    flex: 4;
+    display: flex;
+    flex-wrap: flex;
+}
+
+.workTiles {
+    border-style: solid;
+    border-color: #cfc9bd;
+    border-width: 3px;
+    border-radius: 3px;
+    margin: 15pt 7pt;
+    flex: 1 1 400px;
+  }
+
+  .workTiles img    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 250px;
+      width: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    section {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
