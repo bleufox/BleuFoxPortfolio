@@ -11,6 +11,20 @@ body    {
     margin: 0;
 }
 
+header {
+    background-repeat: no-repeat;
+    padding: 65px;
+    text-align:center;
+    background-image: url(/images/tom-barrett-2t60-JYQ5pk-unsplash.jpg);
+    background-size:175%; 
+}
+
+p   {
+    color: #e0dacc;
+    font-size: 12pt;
+    line-height: 15pt;
+}
+
 nav {
     display: flex;
     background-color: #ac8220;
@@ -22,49 +36,139 @@ nav {
     border-bottom: 2.5px solid #976c17;
 }
 
+.contactBG   {
+    background-color: #ac8220;
+    border-top: 2.5px solid #976c17;
+    border-bottom: 2.5px solid #976c17;
+}
+
 nav a {
     color: #e0dacc;
     margin: 0 auto;
+    text-decoration: none;
 }
 
-header {
-    padding: 65px;
-    text-align:left;
-    background-image: url(/images/tom-barrett-2t60-JYQ5pk-unsplash.jpg);
-    background-size:100%;
-    width: auto;
+nav img {
+    width: 45px;
+}
+
+h1  {
+    font-size: ;
+    margin: 50px;
+    border-radius: 5px;
+    border: solid;
+    text-align: center;
+}
+
+h2  {
+    font-family: Calibri;
+    font-size: 20pt;
+    color: #e0dacc;
 }
 
 .header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+  }
+
+.topLogos img  {
+    width: 250px;
+}
+
+.topLogos .contactimgs {
+    width: 300px;
+    margin: 15px auto;
+}
+
+.cards  {
+    text-align: center;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+#properties { 
+    font-size: 24pt;
+      text-decoration: none;
+      border-style: double;
+      border-color: #e0dacc;
+      border-radius: 2px;
+      padding: 5px;
+      margin: 15pt 7pt;
+      flex: 1 1 315px;
+  }
+
+#properties a {
+      text-decoration: none;
+  }
+
+#properties:hover {
+    background-color: #e0dacc;
+    box-shadow: inset 0px 0px 8px
+    #e0dacc, 0 0 25px
+    #ac8220;
+    transition: all .15s ease-in-out;
+}
+
+#properties:hover p,
+#properties:hover h2{
+    font-style: italic;
+    color: black;
+}
+
+.contactimgs    {
+    margin: 50px;
     width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-.cards  {
-    flex: 4;
-    display: flex;
-    flex-wrap: wrap;
+    height:auto;
 }
 
-.workTiles {
-    border-style: solid;
-    border-color: #cfc9bd;
-    border-width: 3px;
-    border-radius: 3px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
+.icons img {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+}
+
+input[type=text], select, textarea {
+    color: darkgrey;
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid   #ac8220;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
   }
 
-.workTiles img    {
-      width: 100%;
-      height: 100%;
-      object-fit:cover;
-      overflow: hidden;
+    input[type=submit] {
+    background-color:#ac8220;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
   }
 
-  @media screen and (max-width: 768px) {
+    input[type=submit]:hover {
+    background-color: #e0dacc;
+    color: black;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    border-radius: 20px;
+    padding: 50px 0;
+  }
+
+@media screen and (max-width: 768px) {
     section {
       flex-direction: column;
     }
