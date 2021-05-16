@@ -15,7 +15,7 @@ body    {
 p   {
     font-size: 12pt;
     line-height: 15pt;
-    text-align: justify;
+    text-align: center;
 }
 
 header {
@@ -60,15 +60,6 @@ nav .home {
     background-color: #e0dacc;
 }
 
-.home {
-    border: none;
-    background-color: #e0dacc;
-}
-
-.home:hover {
-    transform: scale(1.1);
-}
-
 h1  {
     font-size: 30pt;
     text-align: center;
@@ -77,6 +68,22 @@ h1  {
 h2  {
     font-size: 24pt;
     font-size: 20pt;
+    text-align: center;
+}
+
+h3  {
+    text-align: left;
+    font-size: 18pt;
+    line-height: 0;
+}
+
+.home {
+    border: none;
+    background-color: #e0dacc;
+}
+
+.home:hover {
+    transform: scale(1.1);
 }
 
 .Team-Projects {
@@ -107,7 +114,7 @@ h2  {
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(../images/filip-kominik-IHtVbLRjTZU-unsplash.jpg);
-} */
+}
 
 .header img {
     display: block;
@@ -118,9 +125,6 @@ h2  {
 
 .contactNav   {
     padding: 15px;
-    background-color: #ac8220;
-    border-top: 2.5px solid #976c17;
-    border-bottom: 2.5px solid #976c17;
 }
 
 .contactNav img:hover   {
@@ -138,7 +142,6 @@ h2  {
 }
 
 .cards  {
-    text-align: center;
     flex: 4;
     display: flex;
     flex-wrap: wrap;
@@ -146,20 +149,6 @@ h2  {
 
 .cards a {
     text-decoration: none;
-}
-
-#properties:hover {
-    transform: scale(.95);
-    background-color: #4b5e65;
-    box-shadow: inset 0px 0px 8px
-    #e0dacc, 0 0 25px
-    #ac8220;
-    transition: all 0s ease-in-out;
-}
-
-#properties:hover p,
-#properties:hover h2{
-    font-style: italic;
 }
 
 #properties {
@@ -174,6 +163,20 @@ h2  {
     margin: 15pt 7pt;
     flex: 1 1 400px;
   }
+
+#properties:hover {
+    transform: scale(.95);
+    background-color: #4b5e65;
+    box-shadow: inset 0px 0px 8px
+    #e0dacc, 0 0 25px
+    #ac8220;
+    transition: all 0s ease-in-out;
+}
+
+#properties:hover p,
+#properties:hover h2{
+    font-style: italic;
+}
 
 .contactimgs    {
     width: 250px;
@@ -205,7 +208,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color:#ac8220;
-    color: white;
+    color: #e0dacc;
     padding: 12px 50px;
     border: none;
     border-radius: 15px;
@@ -228,19 +231,15 @@ input[type=submit]:hover {
     padding: 50px 0;
   }
 
-.About {
+.about {
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
     color: #e0dacc;
     max-width: 750px;
     padding: 15px;
-    margin: 10px;
     border: solid #e0dacc;
     border-radius: 2px;
-    }
-
-section #form-group {
-        flex: 4;
-        display: flex;
-        flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
