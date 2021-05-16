@@ -15,6 +15,7 @@ body    {
 p   {
     font-size: 12pt;
     line-height: 15pt;
+    text-align: justify;
 }
 
 header {
@@ -69,15 +70,12 @@ nav .home {
 }
 
 h1  {
-    margin: 50px;
-    border-radius: 5px;
-    border: solid;
+    font-size: 30pt;
     text-align: center;
 }
 
 h2  {
     font-size: 24pt;
-    font-family: 'Calibri';
     font-size: 20pt;
 }
 
@@ -229,6 +227,15 @@ input[type=submit]:hover {
     border-radius: 20px;
     padding: 50px 0;
   }
+
+.About {
+    color: #e0dacc;
+    max-width: 750px;
+    padding: 15px;
+    margin: 10px;
+    border: solid #e0dacc;
+    border-radius: 2px;
+    }
 
 section #form-group {
         flex: 4;
