@@ -77,6 +77,19 @@ h2  {
     background-image: url(/images/Shoe.jpg);
 }
 
+.Upcoming {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/images/ronaldo-arthur-vidal-Cdz_lvnl37k-unsplash.jpg);
+}
+
+.Recommended {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/images/filip-kominik-IHtVbLRjTZU-unsplash.jpg);
+}
+
+
 .header img {
     display: block;
     margin-left: auto;
@@ -113,6 +126,7 @@ h2  {
 
 #properties:hover {
     transform: scale(.95);
+    background-color: #4b5e65;
     box-shadow: inset 0px 0px 8px
     #e0dacc, 0 0 25px
     #ac8220;
@@ -128,7 +142,8 @@ h2  {
     height: 500px; 
     font-size: 24pt;
     text-decoration: none;
-    border-style: double;
+    border-style: solid;
+    border-width: 1.5px;
     border-color: #e0dacc;
     border-radius: 2px;
     padding: 5px;
