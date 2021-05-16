@@ -242,10 +242,6 @@ input[type=text], select, textarea {
     resize: vertical;
   }
 
-img .signature  {
-    width: 250px;
-}
-
 input[type=submit] {
     background-color:#ac8220;
     color: #e0dacc;
