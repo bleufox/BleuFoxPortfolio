@@ -90,25 +90,25 @@ h2  {
 .Independent    {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/images/pexels-jannet-serhan-2822949.jpg);
+    background-image: url(../images/pexels-jannet-serhan-2822949.jpg);
 }
 
 .Gallery {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/images/Shoe.jpg);
+    background-image: url(../images/Shoe.jpg);
 }
 
 .Upcoming {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/images/ronaldo-arthur-vidal-Cdz_lvnl37k-unsplash.jpg);
+    background-image: url(../images/ronaldo-arthur-vidal-Cdz_lvnl37k-unsplash.jpg);
 }
 
 .Recommended {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/images/filip-kominik-IHtVbLRjTZU-unsplash.jpg);
+    background-image: url(../images/filip-kominik-IHtVbLRjTZU-unsplash.jpg);
 } */
 
 .header img {
