@@ -12,6 +12,11 @@ body    {
     color: #444444;
 }
 
+p   {
+    font-size: 12pt;
+    line-height: 15pt;
+}
+
 header {
     background-repeat: no-repeat;
     padding: 65px;
@@ -20,9 +25,12 @@ header {
     background-size:175%; 
 }
 
-p   {
-    font-size: 12pt;
-    line-height: 15pt;
+header a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 550;
 }
 
 nav {
@@ -44,6 +52,20 @@ nav a {
 
 nav img {
     width: 45px;
+}
+
+nav .home {
+    color: #444444;
+    background-color: #e0dacc;
+}
+
+.home {
+    border: none;
+    background-color: #e0dacc;
+}
+
+.home:hover {
+    transform: scale(1.1);
 }
 
 h1  {
@@ -87,8 +109,7 @@ h2  {
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(/images/filip-kominik-IHtVbLRjTZU-unsplash.jpg);
-}
-
+} */
 
 .header img {
     display: block;
@@ -97,10 +118,15 @@ h2  {
     height:auto;
   }
 
-.contactNavBG   {
+.contactNav   {
+    padding: 15px;
     background-color: #ac8220;
     border-top: 2.5px solid #976c17;
     border-bottom: 2.5px solid #976c17;
+}
+
+.contactNav img:hover   {
+    transform: scale(1.12);
 }
 
 .topLogos img  {
@@ -152,12 +178,12 @@ h2  {
   }
 
 .contactimgs    {
-    margin: 50px;
     width: 250px;
+    height: auto;
+    padding: 25px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:auto;
 }
 
 .icons img {
@@ -194,6 +220,7 @@ input[type=submit]:hover {
   }
   
 .container {
+    color: #e0dacc;
     margin-left: auto;
     margin-right: auto;
     width: 750px;
