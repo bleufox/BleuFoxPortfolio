@@ -45,6 +45,20 @@ nav {
     border-bottom: 2.5px solid #976c17;
 }
 
+footer {
+    background-color: #ac8220;
+    padding: 15px;
+    border-top: 2.5px solid #976c17;
+    border-bottom: 2.5px solid #976c17;
+}
+
+.footerImg {
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav a {
     color: #e0dacc;
     margin: 0 auto;
@@ -178,6 +192,28 @@ h3  {
     font-style: italic;
 }
 
+#bio p {
+    text-align: justify;
+}
+
+.bioImg {
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#picture {
+    height: 350px;
+    border-radius: 2500px;
+}
+
+.signature {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .contactimgs    {
     width: 250px;
     height: auto;
@@ -205,6 +241,10 @@ input[type=text], select, textarea {
     margin-bottom: 16px; 
     resize: vertical;
   }
+
+img .signature  {
+    width: 250px;
+}
 
 input[type=submit] {
     background-color:#ac8220;
@@ -240,6 +280,11 @@ input[type=submit]:hover {
     padding: 15px;
     border: solid #e0dacc;
     border-radius: 2px;
+}
+
+.about img{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
