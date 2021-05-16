@@ -36,12 +36,6 @@ nav {
     border-bottom: 2.5px solid #976c17;
 }
 
-.contactBG   {
-    background-color: #ac8220;
-    border-top: 2.5px solid #976c17;
-    border-bottom: 2.5px solid #976c17;
-}
-
 nav a {
     color: #e0dacc;
     margin: 0 auto;
@@ -73,13 +67,20 @@ h2  {
     height:auto;
   }
 
+.contactNavBG   {
+    background-color: #ac8220;
+    border-top: 2.5px solid #976c17;
+    border-bottom: 2.5px solid #976c17;
+}
+
 .topLogos img  {
+    text-decoration: none;
     width: 250px;
 }
 
 .topLogos .contactimgs {
     width: 300px;
-    margin: 15px auto;
+    margin: 5px auto;
 }
 
 .cards  {
@@ -106,6 +107,7 @@ h2  {
 
 #properties:hover {
     background-color: #e0dacc;
+
     box-shadow: inset 0px 0px 8px
     #e0dacc, 0 0 25px
     #ac8220;
@@ -115,7 +117,7 @@ h2  {
 #properties:hover p,
 #properties:hover h2{
     font-style: italic;
-    color: black;
+    color: #444444;
 }
 
 .contactimgs    {
@@ -135,7 +137,7 @@ h2  {
 }
 
 input[type=text], select, textarea {
-    color: darkgrey;
+    color: #444444;
     width: 100%;
     padding: 12px; 
     border: 2px solid   #ac8220;
@@ -146,7 +148,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
 
-    input[type=submit] {
+input[type=submit] {
     background-color:#ac8220;
     color: white;
     padding: 12px 50px;
@@ -155,7 +157,7 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
 
-    input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #e0dacc;
     color: black;
   }
