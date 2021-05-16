@@ -114,7 +114,7 @@ h3  {
 
 .Gallery {
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 125%;
     background-image: url(../images/Shoe.jpg);
 }
 
@@ -127,7 +127,7 @@ h3  {
 .Recommended {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../images/filip-kominik-IHtVbLRjTZU-unsplash.jpg);
+    background-image: url(../images/pexels-mason-slover-940271.jpg);
 }
 
 .header img {
