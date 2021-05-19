@@ -18,11 +18,15 @@ p   {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-repeat: no-repeat;
     padding: 65px;
     text-align:center;
-    background-image: url(../images/tom-barrett-2t60-JYQ5pk-unsplash.jpg);
+    background-image: url(../images/Clouds-Header.jpg);
     background-size:175%; 
 }
 
@@ -100,13 +104,13 @@ h3  {
     transform: scale(1.1);
 }
 
-.Team-Projects {
+.CSS {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../images/Typewriter.jpg);
+    background-image: url(../images/abstract.jpg);
 }
 
-.Independent    {
+.Flexbox    {
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(../images/pexels-jannet-serhan-2822949.jpg);
@@ -155,6 +159,19 @@ h3  {
     width: 300px;
     margin: 5px auto;
 }
+
+#topCard {
+    height: 350px; 
+    font-size: 24pt;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #e0dacc;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 15pt 7pt;
+    flex: 1 1 400px;
+  }
 
 .cards  {
     flex: 4;
@@ -232,7 +249,6 @@ h3  {
 }
 
 input[type=text], select, textarea {
-    color: #444444;
     width: 100%;
     padding: 12px; 
     border: 2px solid   #ac8220;
@@ -241,6 +257,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px; 
     resize: vertical;
+    color: #444444;
   }
 
 input[type=submit] {
@@ -284,13 +301,28 @@ input[type=submit]:hover {
     margin-right: auto;
 }
 
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+/* THIS IS NEW CODE */
 
-}
+.cards  {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.snippet img {
+    height: 400px;
+    width: auto;
+    margin: 15pt 7pt;
+  }
 
+.snippet:hover {
+    transform: scale(.95);
+    background-color: #4b5e65;
+    box-shadow: inset 0px 0px 8px
+    #e0dacc, 0 0 25px
+    #ac8220;
+    transition: all 0s ease-in-out;
+    }
+           
 @media (max-width: 768px) {
     .main-content {
       padding: 20px 8px;
