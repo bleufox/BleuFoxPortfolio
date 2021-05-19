@@ -121,14 +121,14 @@ h3  {
 .Upcoming {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../images/ronaldo-arthur-vidal-Cdz_lvnl37k-unsplash.jpg);
+    background-image: url(../images/daniele-levis-pelusi-AqgHZajV-IU-unsplash.jpg);
 }
 
 .Recommended {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(../images/fakurian-design-Tc_4PdN-Fq0-unsplash.jpg);
+    background-image: url(../images/ron-whitaker-jH_-L1C_o6Q-unsplash.jpg);
 }
 
 .header img {
@@ -167,7 +167,7 @@ h3  {
 }
 
 #properties {
-    height: 500px; 
+    height: 350px; 
     font-size: 24pt;
     text-decoration: none;
     border-style: solid;
@@ -284,15 +284,15 @@ input[type=submit]:hover {
     margin-right: auto;
 }
 
-@media screen and (max-width: 768px) {
-    section {
-      flex-direction: column;
-    }
-  }
-
   @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
 }
+
+@media (max-width: 768px) {
+    .main-content {
+      padding: 20px 8px;
+    }
+  }
