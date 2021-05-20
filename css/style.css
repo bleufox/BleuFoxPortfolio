@@ -109,7 +109,7 @@ input[type=text], select, textarea {
   }
  
   select {
-    color:darkgray;
+    color:#444444;
   }
   .container {
     border-radius: 80px;
@@ -254,8 +254,7 @@ input[type=text], select, textarea {
     border-width: 1.75px;
     border-color: #e0dacc;
     border-radius: 3px;
-    padding: 5px;
-    margin: 15pt 7pt;
+    margin: 10pt 10pt;
     flex: 1 1 350px;
     background-repeat: no-repeat;
     background-size: 100%;
