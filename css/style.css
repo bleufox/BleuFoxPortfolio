@@ -14,15 +14,13 @@ body    {
     margin: 0;
 }
 
-p   {
-    font-size: 12pt;
-    line-height: 15pt;
-    text-align: center;
-}
-
 a {
     color: #e0dacc;
     text-decoration: none;
+}
+
+p {
+    text-align: justify;
 }
 
 header {
@@ -69,7 +67,7 @@ h2  {
     font-size: 24pt;
     font-size: 20pt;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 h3  {
@@ -77,6 +75,32 @@ h3  {
     font-size: 18pt;
     line-height: 0;
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid   #ac8220;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    color: #444444;
+  }
+
+input[type=submit] {
+    background-color:#ac8220;
+    color: #e0dacc;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover {
+    background-color: black;
+    color: #e0dacc;
+  }
 
 /* End of Semantic Tags */
 
@@ -114,8 +138,9 @@ h3  {
     background-image: url(../images/uniquely.png);
 }
 
-/* End of Images */
+/* *******End of All Images******* */
 
+/* ******* Classes ******* */
 .header img {
     display: block;
     margin-left: auto;
@@ -146,57 +171,25 @@ h3  {
     margin-right: auto;
 }
 
-#topCard {
-    height: 350px; 
-    font-size: 24pt;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 1.5px;
-    border-color: #e0dacc;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-  }
-
 .responsiveGrid  {
     flex: 4;
     display: flex;
     flex-wrap: wrap;
 }
 
-#properties { 
-    height: 250px;
-    font-size: 24pt;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #e0dacc;
-    border-radius: 3px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 350px;z
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-  }
-
-#properties:hover {
-    transform: scale(.95);
-    box-shadow: inset 0px 0px 8px
-    #e0dacc, 0 0 25px
-    #ac8220;
-    transition: all 0s ease-in-out;
+.contactHeader    {
+    width: 250px;
+    height: auto;
+    padding: 25px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#properties:hover h2 {
-    font-style: italic;
-    background-color: #ac8220;
-    color: #e0dacc;
-}
-
-#bio p {
-    text-align: justify;
+.home {
+    color: #444444;
+    background-color: #e0dacc;
+    border: none;
 }
 
 .bioImg {
@@ -206,65 +199,6 @@ h3  {
     display: block;
 }
 
-#picture {
-    height: 350px;
-    border-radius: 2500px;
-}
-
-.signature {
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contactimgs    {
-    width: 250px;
-    height: auto;
-    padding: 25px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.icons img {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75px;
-}
-
-.home {
-    color: #444444;
-    background-color: #e0dacc;
-    border: none;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 2px solid   #ac8220;
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px;
-    margin-bottom: 16px; 
-    resize: vertical;
-    color: #444444;
-  }
-
-input[type=submit] {
-    background-color:#ac8220;
-    color: #e0dacc;
-    padding: 12px 50px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-
-input[type=submit]:hover {
-    background-color: black;
-    color: #e0dacc;
-  }
-  
 .container {
     display: flex;
     flex-direction: row;
@@ -294,6 +228,42 @@ input[type=submit]:hover {
     margin-right: auto;
 }
 
+/* *******IDs******* */
+
+#properties { 
+    height: 250px;
+    font-size: 24pt;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e0dacc;
+    /* border-radius: 1px; */
+    padding: 5px;
+    margin: 15pt 7pt;
+    flex: 1 1 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+#properties:hover {
+    transform: scale(.95);
+    box-shadow: inset 0px 0px 8px
+    #e0dacc, 0 0 25px
+    #ac8220;
+    transition: all 0s ease-in-out;
+}
+
+#properties:hover h2 {
+    font-style: italic;
+    background-color: #ac8220;
+    color: #e0dacc;
+}
+
+#bioPicture {
+    height: 350px;
+    border-radius: 2500px;
+}
 
 @media (max-width: 768px) {
     .main-content {
