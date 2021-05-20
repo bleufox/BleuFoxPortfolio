@@ -135,6 +135,34 @@ h3  {
     background-image: url(../images/ron-whitaker-jH_-L1C_o6Q-unsplash.jpg);
 }
 
+.jkm {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(/images/jkm.png);
+}
+
+.restoring {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(/images/Restoring.png);
+}
+
+.c4pdx {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(/images/c4pdx.png);
+}
+
+.uniquely {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(/images/uniquely.png);
+}
+
 .header img {
     display: block;
     margin-left: auto;
@@ -158,6 +186,11 @@ h3  {
 .topLogos .contactimgs {
     width: 300px;
     margin: 5px auto;
+}
+
+.about img{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #topCard {
@@ -296,72 +329,6 @@ input[type=submit]:hover {
     border-radius: 2px;
 }
 
-.about img{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/************** THIS IS NEW CODE *************/
-
-
-.galleryTile img {
-    margin-bottom: 10px;
-    overflow: auto;
-    padding: 5px;
-    width: auto;
-    max-height: 500px;
-    background-color: red;
-}
-
-section .cards  {
-    flex: 4;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-.galleryTile {
-    background-color: #455855;
-    border-style: dashed;
-    border-color: #FDF8F5;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 15pt 7pt;
-    flex: 1 1 400px;
-  }
-
-.galleryTile pre    {
-    color: #383838;
-    border-radius: 7px;
-    font-size: 105%;
-    background: linear-gradient(180deg, #ddaf94, #edd2c4);
-    white-space: pre-wrap;
-    user-select: all;
-}
-
-.galleryTile h2 {
-    border-radius: 8px;
-    transition: all 0s ease-in-out;
-        }
-    
-.galleryTile:hover,
-.galleryTile:hover h2  {
-    box-shadow: inset 0px 0px 8px
-    #c7d6d2, 0 0 15px
-    #84b3a5;
-    }
-            
-  /* @media screen and (max-width: 768px) {
-    section {
-      flex-direction: column;
-    }
-  }
-
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-} */
 
 
 @media (max-width: 768px) {
