@@ -31,8 +31,38 @@
     <nav class="home">
         <a href="https://bleufox.github.io/BleuFoxPortfolio/" class="home">Home</a>
     </nav>
-   
-    <section class="container">
+
+    <h3 class="formHeader">Request a Creative Meeting</h3>
+
+    <div class="container">
+        <form action="#">
+            <label for="fname"></label>
+            <input type="text" name="firstname" placeholder="First Name">
+
+            <label for="lname"></label>
+            <input type="text" name="lastname" placeholder="Last Name">
+
+            <label for="project">Select Project Type</label>
+            <select id="project" name="project">
+                <option value="newsite">Brand New Website</option>
+                <option value="existingBF">Edits/Updates to an Existing Website Created by Bleu Fox</option>
+                <option value="existing3rd">Edits/Updates to an Existing Website (Not Created by Bleu Fox)</option>
+                <option value="print">Print Media</option>
+                <option value="social">Social Media Branding/Posts</option>
+            </select>
+
+            <label for="subject"></label>
+            <textarea id="subject" name="subject"
+                placeholder="Tell me about your creative needs and together we will bring them to life!"
+                style="height:200px"></textarea>
+
+            <button type="submit" value="Submit">Submit</button>
+
+        </form>
+        </div>
+
+
+        <!-- <section class="container">
         <form action="#">
 
             <label><h3>What kind of project do you have in mind?</h3></label>
@@ -55,7 +85,8 @@
             <input type="submit" value="Submit">
 
         </form>
-   </section>
+   </section> -->
+
 </body>
 
 </html>
