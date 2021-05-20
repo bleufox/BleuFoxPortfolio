@@ -1,3 +1,5 @@
+/* *******All Semantic Elements******* */
+
 *   {
     box-sizing: border-box;
 }
@@ -7,9 +9,9 @@ html    {
 }
 
 body    {
+    color: #e0dacc;
     font-family: 'Calibri'!important;
     margin: 0;
-    color: #444444;
 }
 
 p   {
@@ -19,6 +21,7 @@ p   {
 }
 
 a {
+    color: #e0dacc;
     text-decoration: none;
 }
 
@@ -27,15 +30,7 @@ header {
     padding: 65px;
     text-align:center;
     background-image: url(../images/Clouds-Header.jpg);
-    background-size:175%; 
-}
-
-header a {
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14pt;
-    font-weight: 550;
+    background-size:105%; 
 }
 
 nav {
@@ -56,26 +51,13 @@ footer {
     border-bottom: 2.5px solid #976c17;
 }
 
-.footerImg {
-    height: 75px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 nav a {
-    color: #e0dacc;
     margin: 0 auto;
     text-decoration: none;
 }
 
 nav img {
     width: 45px;
-}
-
-nav .home {
-    color: #444444;
-    background-color: #e0dacc;
 }
 
 h1  {
@@ -87,6 +69,7 @@ h2  {
     font-size: 24pt;
     font-size: 20pt;
     text-align: center;
+    margin-top: 80px;;
 }
 
 h3  {
@@ -95,67 +78,43 @@ h3  {
     line-height: 0;
 }
 
-.home {
-    border: none;
-    background-color: #e0dacc;
-}
+/* End of Semantic Tags */
 
-.home:hover {
-    transform: scale(1.1);
-}
+/* *******All Images******* */
 
 .CSS {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(../images/branch.jpg);
+    background-image: url(../images/water.jpg);
 }
 
 .Flexbox    {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(../images/heart.jpg);
+    background-image: url(../images/sand.jpg);
 }
 
 .placeholder1 {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(../images/Shoe.jpg);
+    background-image: url(../images/falling.jpg);
 }
 
 .placeholder2 {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    background-image: url(../images/phone.jpg);
+    background-image: url(../images/cracked.jpg);
 }
 
 .jkm {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     background-image: url(../images/jkm.png);
 }
 
 .restoring {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     background-image: url(../images/Restoring.png);
 }
 
 .c4pdx {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     background-image: url(../images/c4pdx.png);
 }
 
 .uniquely {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     background-image: url(../images/uniquely.png);
 }
+
+/* End of Images */
 
 .header img {
     display: block;
@@ -200,14 +159,10 @@ h3  {
     flex: 1 1 400px;
   }
 
-.cards  {
+.responsiveGrid  {
     flex: 4;
     display: flex;
     flex-wrap: wrap;
-}
-
-.cards a {
-    text-decoration: none;
 }
 
 #properties { 
@@ -215,26 +170,29 @@ h3  {
     font-size: 24pt;
     text-decoration: none;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 3px;
     border-color: #e0dacc;
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 5px;
     margin: 15pt 7pt;
-    flex: 1 1 300px;
+    flex: 1 1 350px;z
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
   }
 
 #properties:hover {
     transform: scale(.95);
-    background-color: #4b5e65;
     box-shadow: inset 0px 0px 8px
     #e0dacc, 0 0 25px
     #ac8220;
     transition: all 0s ease-in-out;
 }
 
-#properties:hover p,
-#properties:hover h2{
+#properties:hover h2 {
     font-style: italic;
+    background-color: #ac8220;
+    color: #e0dacc;
 }
 
 #bio p {
@@ -273,6 +231,12 @@ h3  {
     margin-left: auto;
     margin-right: auto;
     width: 75px;
+}
+
+.home {
+    color: #444444;
+    background-color: #e0dacc;
+    border: none;
 }
 
 input[type=text], select, textarea {
@@ -323,6 +287,12 @@ input[type=submit]:hover {
     border-radius: 2px;
 }
 
+.footerImg {
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 @media (max-width: 768px) {
