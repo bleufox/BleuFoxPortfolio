@@ -139,28 +139,28 @@ h3  {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(/images/jkm.png);
+    background-image: url(../images/jkm.png);
 }
 
 .restoring {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(/images/Restoring.png);
+    background-image: url(../images/Restoring.png);
 }
 
 .c4pdx {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(/images/c4pdx.png);
+    background-image: url(../images/c4pdx.png);
 }
 
 .uniquely {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(/images/uniquely.png);
+    background-image: url(../images/uniquely.png);
 }
 
 .header img {
