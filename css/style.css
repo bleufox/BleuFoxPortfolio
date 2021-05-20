@@ -27,8 +27,8 @@ header {
     background-repeat: no-repeat;
     padding: 65px;
     text-align:center;
-    background-image: url(../images/verigated.jpg);
-    background-size:225%; 
+    background-image: url(../images/smoke.jpg);
+    background-size:150%; 
 }
 
 nav {
@@ -107,7 +107,7 @@ input[type=submit]:hover {
 /* *******All Images******* */
 
 .CSS {
-    background-image: url(../images/water.jpg);
+    background-image: url(../images/lake.jpg);
 }
 
 .Flexbox    {
@@ -235,9 +235,9 @@ input[type=submit]:hover {
     font-size: 24pt;
     text-decoration: none;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1.75px;
     border-color: #e0dacc;
-    /* border-radius: 1px; */
+    border-radius: 3px;
     padding: 5px;
     margin: 15pt 7pt;
     flex: 1 1 350px;
@@ -251,7 +251,7 @@ input[type=submit]:hover {
     box-shadow: inset 0px 0px 8px
     #e0dacc, 0 0 25px
     #ac8220;
-    transition: all 0s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 #properties:hover h2 {
@@ -264,6 +264,9 @@ input[type=submit]:hover {
     height: 350px;
     border-radius: 2500px;
 }
+
+
+/* Mobile sizing */
 
 @media (max-width: 768px) {
     .main-content {
