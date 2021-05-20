@@ -107,32 +107,26 @@ h3  {
 .CSS {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../images/abstract.jpg);
+    background-image: url(../images/branch.jpg);
 }
 
 .Flexbox    {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../images/pexels-jannet-serhan-2822949.jpg);
+    background-image: url(../images/heart.jpg);
 }
 
-.Gallery {
+.placeholder1 {
     background-repeat: no-repeat;
-    background-size: 125%;
+    background-size: 100%;
     background-image: url(../images/Shoe.jpg);
 }
 
-.Upcoming {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url(../images/daniele-levis-pelusi-AqgHZajV-IU-unsplash.jpg);
-}
-
-.Recommended {
+.placeholder2 {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(../images/ron-whitaker-jH_-L1C_o6Q-unsplash.jpg);
+    background-image: url(../images/phone.jpg);
 }
 
 .jkm {
@@ -178,12 +172,12 @@ h3  {
     transform: scale(1.12);
 }
 
-.topLogos img  {
+.headerLogos img  {
     text-decoration: none;
     width: 250px;
 }
 
-.topLogos .contactimgs {
+.headerLogos .contactimgs {
     width: 300px;
     margin: 5px auto;
 }
@@ -216,8 +210,8 @@ h3  {
     text-decoration: none;
 }
 
-#properties {
-    height: 350px; 
+#properties { 
+    height: 250px;
     font-size: 24pt;
     text-decoration: none;
     border-style: solid;
@@ -226,7 +220,7 @@ h3  {
     border-radius: 2px;
     padding: 5px;
     margin: 15pt 7pt;
-    flex: 1 1 400px;
+    flex: 1 1 300px;
   }
 
 #properties:hover {
