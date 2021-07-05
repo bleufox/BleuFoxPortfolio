@@ -1,21 +1,19 @@
-/* *******All Semantic Elements******* */
-
 *   {
     box-sizing: border-box;
 }
 
 html    {
-    background-color: #4b5e65;    
+    background-color: #c5afb0;    
 }
 
 body    {
-    color: #e0dacc;
-    font-family: 'Trebuchet MS'!important;
+    color: #1d1a1c;
+    font-family: Georgia !important;
     margin: 0;
 }
 
 a {
-    color: #e0dacc;
+    color: #1d1a1c;
     text-decoration: none;
 }
 
@@ -27,36 +25,27 @@ header {
     background-repeat: no-repeat;
     padding: 65px;
     text-align:center;
-    background-image: url(../images/smoke.jpg);
+    background-image: url(../images/pexels-steve-johnson-1572386.jpg);
     background-size:150%; 
 }
 
 nav {
     display: flex;
-    background-color: #ac8220;
+    background-color: #c5afb0;
     width: 100%;
     padding: 5px;
-    text-transform: uppercase;
-    font-weight: 450;
-    border-top: 2.5px solid #976c17;
-    border-bottom: 2.5px solid #976c17;
+    border-top: 2.5px solid #1d1a1c;
 }
 
 footer {
-    background-color: #ac8220;
-    height: 110px;
+    background-color: #c5afb0;
+    height: 75px;
     padding: 15px;
-    border-top: 2.5px solid #976c17;
-    border-bottom: 2.5px solid #976c17;
+    border-bottom: 2.5px solid #1d1a1c;
 }
 
 nav a {
     margin: 0 auto;
-    text-decoration: none;
-}
-
-nav img {
-    width: 45px;
 }
 
 h1  {
@@ -87,90 +76,42 @@ input[type=text], select, textarea {
     margin-top: 10px; 
     margin-bottom: 16px; 
     resize: vertical; 
-    font-family: 'Trebuchet MS';
+    font-family: Georgia ;
     color: #e0dacc;
-  }
-  
-  button {
-    background-color: #ac8220;
-    color: #e0dacc;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Trebuchet MS';
-    border: 3px solid #976c17;
-  }
+}
 
-  button:hover {
-    background-color: #e0dacc;
-    color:#ac8220;
-    border: 3px solid #976c17;
-  }
- 
-  select {
+select {
     color:#444444;
-  }
-  .container {
+}
+
+/* ******* Classes ******* */
+
+.container {
     border-radius: 80px;
     padding: 50px;
     flex: 4;
     display: flex;
     flex-wrap: wrap;
-  }
-
-/* End of Semantic Tags */
-
-/* *******All Images******* */
-
-.CSS {
-    background-image: url(../images/lake.jpg);
 }
 
-.Flexbox    {
-    background-image: url(../images/sand.jpg);
-}
-
-.placeholder1 {
-    background-image: url(../images/falling.jpg);
-}
-
-.placeholder2 {
-    background-image: url(../images/cracked.jpg);
-}
-
-.jkm {
-    background-image: url(../images/jkm.png);
-}
-
-.restoring {
-    background-image: url(../images/Restoring.png);
-}
-
-.c4pdx {
-    background-image: url(../images/c4pdx.png);
-}
-
-.uniquely {
-    background-image: url(../images/uniquely.png);
-}
-
-/* *******End of All Images******* */
-
-/* ******* Classes ******* */
 .header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height:auto;
-  }
+}
+
+.nav-icons {
+    height: 20px;
+    width: auto;
+}
 
 .contactNav   {
     padding: 15px;
 }
 
 .contactNav img:hover   {
-    transform: scale(1.12);
+    transform: scale(1.20);
 }
 
 .headerLogos img  {
@@ -214,6 +155,8 @@ input[type=text], select, textarea {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    height: 350px;
+    border-radius: 2500px;
 }
 
 .container {
@@ -224,7 +167,7 @@ input[type=text], select, textarea {
     margin-right: auto;
     max-width: 1000px;
     padding: 35px 50px;
-  }
+}
 
 .about {
     margin: 25px 0;
@@ -238,52 +181,55 @@ input[type=text], select, textarea {
 }
 
 .footerImg {
-    height: 75px;
+    height: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* *******IDs******* */
+.box-properties { 
 
-#properties { 
+    background: #eee5f1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #c5afb0 0%, #eee5f1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #c5afb0 0%,#eee5f1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #c5afb0 0%,#eee5f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5afb0', endColorstr='#eee5f1',GradientType=0 );
+
     height: 250px;
     font-size: 24pt;
     text-decoration: none;
     border-style: solid;
     border-width: 1.75px;
-    border-color: #e0dacc;
-    border-radius: 3px;
+    border-color: #c5afb0;
+    border-radius: 15px;
     margin: 10pt 10pt;
     flex: 1 1 350px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-  }
+}
 
-#properties:hover {
-    transform: scale(.95);
+.div-imgs   {
+    height: 55px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+
+.box-properties:hover {
+    transform: scale(.97);
     box-shadow: inset 0px 0px 8px
-    #e0dacc, 0 0 25px
-    #ac8220;
+    #c5afb0, 0 0 25px
+    #1d1a1c;
     transition: all .15s ease-in-out;
-}
-
-#properties:hover h2 {
-    font-style: italic;
-    background-color: #ac8220;
-    color: #e0dacc;
-}
-
-#bioPicture {
-    height: 350px;
-    border-radius: 2500px;
 }
 
 /* *******Mobile sizing******* */
 
 @media (max-width: 768px) {
     .main-content {
-      padding: 20px 8px;
+    padding: 20px 8px;
     }
-  }
+}
