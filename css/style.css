@@ -60,17 +60,34 @@ h3  {
     padding: 50px 0px 10px 0;
 }
 
+h4 {
+    margin-top: 50px;
+    font-size: 14pt;
+    text-align: center;
+}
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
     border: 3px solid #c5afb0;
-    border-radius: 3px; 
+    border-radius: 10px; 
     box-sizing: border-box; 
     margin-top: 10px; 
     margin-bottom: 16px; 
     resize: vertical; 
     font-family: Georgia ;
     color: #eee5f1;
+}
+
+button {
+    background-color: #c5afb0;
+    color: #1d1a1c;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #eee5f1;
+    font-family: Georgia;
+    font-size: 12pt;
 }
 
 select {
@@ -171,25 +188,27 @@ select {
 }
 
 .box-properties { 
-
     background: #eee5f1; /* Old browsers */
     background: -moz-linear-gradient(top,  #c5afb0 0%, #eee5f1 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #c5afb0 0%,#eee5f1 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #c5afb0 0%,#eee5f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5afb0', endColorstr='#eee5f1',GradientType=0 );
-
-    height: 250px;
-    font-size: 24pt;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 1.75px;
-    border-color: #c5afb0;
-    border-radius: 15px;
+    height: 300px;
     margin: 10pt 10pt;
     flex: 1 1 350px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+}
+
+.contact-info { 
+    background: #eee5f1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #c5afb0 0%, #eee5f1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #c5afb0 0%,#eee5f1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #c5afb0 0%,#eee5f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5afb0', endColorstr='#eee5f1',GradientType=0 );
+    width: 100%;
+    height: 150px;
 }
 
 .div-imgs   {
@@ -198,8 +217,16 @@ select {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 85px;
+}
+
+.creative-meeting-img   {
+    height: 55px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
-    margin-top: 90px;
 }
 
 .gallery-div-imgs   {
@@ -210,11 +237,43 @@ select {
     margin-right: auto;
 }
 
-.box-properties:hover {
+#personal-library:hover {
+    background-image: url("/images/personal-library-screenshot.png");
+    opacity: 75%;
+    width: 100%;
     transform: scale(.97);
-    box-shadow: inset 0px 0px 8px
-    #c5afb0, 0 0 25px
-    #1d1a1c;
+    transition: all .15s ease-in-out;
+}
+
+#contact-form:hover {
+    background-image: url("/images/contact-form.png");
+    opacity: 75%;
+    width: 100%;
+    transform: scale(.97);
+    transition: all .15s ease-in-out;
+}
+
+#cheat-sheet:hover {
+    background-image: url("/images/cheat-sheet.png");
+    opacity: 75%;
+    width: 100%;
+    transform: scale(.97);
+    transition: all .15s ease-in-out;
+}
+
+#quiz:hover {
+    background-image: url("/images/quiz.png");
+    opacity: 75%;
+    width: 100%;
+    transform: scale(.97);
+    transition: all .15s ease-in-out;
+}
+
+#day-planner:hover {
+    background-image: url("/images/day-planner.png");
+    opacity: 75%;
+    width: 100%;
+    transform: scale(.97);
     transition: all .15s ease-in-out;
 }
 
@@ -222,6 +281,26 @@ select {
     color: #1d1a1c;
 }
 
+.contact-page {
+    background-color: #eee5f1;
+}
+
+.sub-link-imgs {
+    height: 25px;
+    padding-left: 325px;
+    display: inline;
+    margin-top: 35px;
+}
+
+.sub-link-imgs-boxes {
+    height: 25px;
+    display: inline;
+    margin-top: 35px;
+}
+
+.sub-links {
+    display: inline;
+}
 
 /* *******Mobile sizing******* */
 
