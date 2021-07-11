@@ -4,7 +4,7 @@ A student portfolio that showcases recent independent and team projects, include
 
 ## Screenshots
 Homepage 
-![Home-Page](/images/home-screenshot.png)
+![Home-Page](/images/Home-Screenshot.png)
 
 Bio
 ![Bio](/images/bio-screenshot.png)
