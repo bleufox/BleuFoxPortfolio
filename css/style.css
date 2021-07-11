@@ -42,25 +42,12 @@ nav a {
 }
 
 h1  {
-    font-size: 30pt;
-    text-align: center;
-}
-
-h2  {
     font-size: 24pt;
-    font-size: 20pt;
     text-align: center;
     margin-top: 100px;
 }
 
-h3  {
-    font-size: 18pt;
-    line-height: 0;
-    text-align: center;
-    padding: 50px 0px 10px 0;
-}
-
-h4 {
+h2 {
     margin-top: 50px;
     font-size: 14pt;
     text-align: center;
@@ -72,7 +59,7 @@ input[type=text], select, textarea {
     border: 3px solid #c5afb0;
     border-radius: 10px; 
     box-sizing: border-box; 
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 16px; 
     resize: vertical; 
     font-family: Georgia ;
@@ -82,7 +69,7 @@ input[type=text], select, textarea {
 button {
     background-color: #c5afb0;
     color: #1d1a1c;
-    width: 150px;
+    width: 100px;
     height: 35px;
     border-radius: 10px;
     border-color: #eee5f1;
@@ -112,8 +99,7 @@ select {
 }
 
 .nav-icons {
-    height: 20px;
-    width: auto;
+    height: 25px;
 }
 
 .contactNav   {
@@ -131,11 +117,9 @@ select {
 .header-logos {
     width: 300px;
     margin: 5px auto;
-}
-
-.about img{
-    margin-left: auto;
-    margin-right: auto;
+    flex: 4;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .responsiveGrid  {
@@ -220,23 +204,6 @@ select {
     margin-top: 85px;
 }
 
-.creative-meeting-img   {
-    height: 55px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-
-.gallery-div-imgs   {
-    height: 200px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #personal-library:hover {
     background-image: url("/images/personal-library-screenshot.png");
     opacity: 75%;
@@ -287,9 +254,10 @@ select {
 
 .sub-link-imgs {
     height: 25px;
-    padding-left: 325px;
-    display: inline;
-    margin-top: 35px;
+    display: inline-block;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sub-link-imgs-boxes {
@@ -298,8 +266,13 @@ select {
     margin-top: 35px;
 }
 
-.sub-links {
-    display: inline;
+.sub-links-el {
+    text-align: center;
+}   
+
+.sub-links-el img:hover{
+    transform: scale(1.20);
+    background-color: #eee5f1;
 }
 
 /* *******Mobile sizing******* */

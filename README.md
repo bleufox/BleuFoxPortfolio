@@ -1,10 +1,15 @@
-# Overview
+## Overview
 
 A student portfolio that showcases recent independent and team projects, includes links to GitHub profile, LinkedIn profile, downloadable resume, and a bio page.
 
-# Screenshots
+## Screenshots
+Homepage 
+![Home-Page](/images/home-screenshot.png)
+
+Bio
 
 
+Contact
 
-# Links
+## Links
 
