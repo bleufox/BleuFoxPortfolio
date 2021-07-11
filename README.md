@@ -10,8 +10,11 @@ Bio
 ![Bio](/images/bio-screenshot.png)
 
 Contact
-![Contact]()
+![Contact](/images/contact-screenshot.png)
 
 
 ## Links
 
+* Portfolio: https://bleufox.github.io/BleuFoxPortfolio/
+* GitHub: https://github.com/bleufox
+* LinkedIn: https://www.linkedin.com/in/bleufox/
