@@ -7,9 +7,11 @@ Homepage
 ![Home-Page](/images/home-screenshot.png)
 
 Bio
-
+![Bio](/images/bio-screenshot.png)
 
 Contact
+![Contact]()
+
 
 ## Links
 
