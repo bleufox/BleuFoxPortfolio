@@ -14,22 +14,18 @@ An updated student portfolio that showcases recent independent and team projects
 * Updated LinkedIn profile
 ```
 
+## Technologies Used
+* HTML, CSS
+
 ## Screenshots
 Homepage 
-![Home-Page](/images/Home-Screenshot.png)
+![Home-Page](/images/)
 
 Bio
-![Bio](/images/bio-screenshot.png)
+![Bio](/images/)
 
 Contact
-![Contact](/images/contact-screenshot.png)
-
-
-## Links
-
-* Portfolio: https://bleufox.github.io/BleuFoxPortfolio/
-* GitHub: https://github.com/bleufox
-* LinkedIn: https://www.linkedin.com/in/bleufox/
+![Contact](/images/)
 
 ## Repository
 * GitHub Repo: https://github.com/bleufox/BleuFoxPortfolio
